@@ -8,7 +8,7 @@ function Rite2() {
           <div className='skilrate'><p>Front-End</p>
             <p>Back-End</p>
             <p>Graphics</p></div>
-            <div className='ceevee'><a href='https://eu.docworkspace.com/d/sIHHJ2KiNAdPlgbEG'><p>Download CV</p></a></div>
+            <div className='ceevee'><a href='https://goldceevee.tiiny.site'><p>Download CV</p></a></div>
         </R2wrap>
     </R2cont>
   )
