@@ -18,6 +18,13 @@ const Maincont = styled.div`
 width: 100%;
 height: 100vh;
 display: flex;
+
+// @media screen and (max-width: 1075px){
+//   width: 100%;
+//   height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+// }
 `
 const Ritey = styled.div`
 background: black;
@@ -26,6 +33,12 @@ width: 23%;
 height: 100%;
 // gap: 0px;
 opacity: 0px;
+// @media screen and (max-width: 1075px){
+//   width: 100%;
+//   height: 50%;
+//   // display: flex;
+//   // flex-direction: column;
+// }
 `
 const Lefty = styled.div`
 background: #FAFAFA;

@@ -16,7 +16,7 @@ function Rite2() {
           <div className='skilrate'><p>Graphics</p>
           <ProgressBar completed={85} customLabel="85%" width='210px' height='10px' labelSize='7.5px'/>
           </div>
-          <a href='https://goldceevee.tiiny.site' target='_blank' className='clink'>
+          <a href='https://goldceevee.tiiny.site' target='_blank' className='clink' download >
             <p>Download CV</p>
             <IoMdDownload/></a>
         </R2wrap>
