@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { IoMdDownload } from 'react-icons/io'
 
 function Rite2() {
   return (
@@ -8,12 +9,14 @@ function Rite2() {
           <div className='skilrate'><p>Front-End</p>
             <p>Back-End</p>
             <p>Graphics</p></div>
-            <div className='ceevee'><a href='https://goldceevee.tiiny.site'><p>Download CV</p></a></div>
+            <div className='ceevee'><a href='https://goldceevee.tiiny.site' target='_blank' className='clink'>
+              <p>Download CV</p>
+              <IoMdDownload/></a>
+            </div>
         </R2wrap>
     </R2cont>
   )
 }
-// https://eu.docworkspace.com/d/sIHHJ2KiNAdPlgbEG
 export default Rite2
 
 const R2cont = styled.div`
@@ -34,5 +37,31 @@ font-family: times new romans;
 
 .ceevee{
   margin: 10px 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.clink{
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+
+a:{
+  color: #fff;
+  text-decoration: none;
+}
+a:link{
+  color: #fff;
+  text-decoration: none;
+}
+a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+a:hover{
+  color: gold;
+  text-decoration: none;
 }
 `
