@@ -2,21 +2,22 @@ import React from 'react'
 import styled from 'styled-components'
 import { IoMdDownload } from 'react-icons/io'
 import ProgressBar from "@ramonak/react-progress-bar"
+import CV from './image/Ori Gold resume.pdf'
 
 function Rite2() {
   return (
     <R2cont>
         <R2wrap>
           <div className='skilrate'><p>Front-End</p>
-            <ProgressBar completed={80} customLabel="80%" width='202px' height='10px' labelSize='7.5px'/>
+            <ProgressBar completed={80} customLabel="80%" bgColor='gold' labelColor='grey' width='168px' height='10px' labelSize='7.5px'/>
           </div>
           <div className='skilrate'><p>Back-End</p>
-            <ProgressBar completed={20} customLabel="20%" width='205px' height='10px' labelSize='7.5px'/>
+            <ProgressBar completed={20} customLabel="20%" bgColor='gold' labelColor='grey' width='170px' height='10px' labelSize='7.5px'/>
           </div>
           <div className='skilrate'><p>Graphics</p>
-          <ProgressBar completed={85} customLabel="85%" width='210px' height='10px' labelSize='7.5px'/>
+          <ProgressBar completed={85} customLabel="85%" bgColor='gold' labelColor='grey' width='175px' height='10px' labelSize='7.5px'/>
           </div>
-          <a href='https://goldceevee.tiiny.site' target='_blank' className='clink' download >
+          <a href= {CV} className='clink' download='Ori Gold Resume'>
             <p>Download CV</p>
             <IoMdDownload/></a>
         </R2wrap>
@@ -31,6 +32,8 @@ height: 100%;
 display: flex;
 justify-content: center;
 margin-top: 10px;
+font-family: poppins;
+background: #1B1218;
 `
 const R2wrap = styled.div`
 width: 90%;
@@ -43,6 +46,7 @@ flex-direction: column;
   align-items: center;
   gap: 10px;
   margin-top: 10px;
+  font-size: 15px;
 }
 
 .clink{

@@ -33,12 +33,12 @@ height: 95%;
 const R1 = styled.div`
 width: 100%;
 height: 35%;
-border-bottom: 1px solid grey;
+// border-bottom: 1px solid grey;
 `
 const R2 = styled.div`
 width: 100%;
 height: 60%;
-border-bottom: 1px solid grey;
+// border-bottom: 1px solid grey;
 `
 const R3 = styled.div`
 width: 100%;
