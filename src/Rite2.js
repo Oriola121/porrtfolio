@@ -9,13 +9,13 @@ function Rite2() {
     <R2cont>
         <R2wrap>
           <div className='skilrate'><p>Front-End</p>
-            <ProgressBar completed={80} customLabel="80%" bgColor='gold' labelColor='grey' width='168px' height='10px' labelSize='7.5px'/>
+            <ProgressBar completed={80} customLabel="80%" bgColor='#000000' labelColor='#fff' width='168px' height='10px' labelSize='7.5px'/>
           </div>
           <div className='skilrate'><p>Back-End</p>
-            <ProgressBar completed={20} customLabel="20%" bgColor='gold' labelColor='grey' width='170px' height='10px' labelSize='7.5px'/>
+            <ProgressBar completed={20} customLabel="20%" bgColor='#000000' labelColor='#fff' width='170px' height='10px' labelSize='7.5px'/>
           </div>
           <div className='skilrate'><p>Graphics</p>
-          <ProgressBar completed={85} customLabel="85%" bgColor='gold' labelColor='grey' width='175px' height='10px' labelSize='7.5px'/>
+          <ProgressBar completed={85} customLabel="85%" bgColor='#000000' labelColor='#fff' width='175px' height='10px' labelSize='7.5px'/>
           </div>
           <a href= {CV} className='clink' download='Ori Gold Resume'>
             <p>Download CV</p>

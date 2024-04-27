@@ -8,7 +8,8 @@ function Left1() {
       <Left1wrap>
         <L1>
         <p className='tech'>Explore My Exciting<br/>Tech Wolrd!</p>
-        <button>Contact</button>
+        <p className='code'>I code</p>
+        <p className='but'>Contact</p>
         </L1>
         <L2>
           <img src='' alt='Ori Gold'/>
@@ -46,6 +47,17 @@ height: 100%;
   font-size: 30px;
   font-weight: 700;
 }
+
+.but{
+  background: #1B1212;
+  width: 23%;
+  height: 10%;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 const L2 = styled.div`
 width: 50%;
