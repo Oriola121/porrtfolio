@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Bg from './image/mount.webp'
+import Gold1 from './image/ori1.jpg'
 
 function Left1() {
   return (
@@ -12,7 +13,7 @@ function Left1() {
         <p className='but'>Contact</p>
         </L1>
         <L2>
-          <img src='' alt='Ori Gold'/>
+          <img src= {Gold1} alt='Ori Gold' className='gold1'/>
         </L2>
       </Left1wrap>
     </Left1cont>
@@ -69,4 +70,9 @@ justify-content: space-around;
 const L2 = styled.div`
 width: 50%;
 height: 100%;
+
+.gold1{
+  margin-top: 1.85rem;
+  height: 90%;
+}
 `
