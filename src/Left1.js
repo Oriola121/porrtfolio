@@ -73,7 +73,6 @@ width: 50%;
 height: 100%;
 
 .gold1{
-  margin-top: 1.85rem;
-  height: 90%;
+  height: 100%;
 }
 `
