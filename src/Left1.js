@@ -42,10 +42,17 @@ justify-content: space-between;
 const L1 = styled.div`
 width: 50%;
 height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
 
 .tech {
   font-size: 30px;
   font-weight: 700;
+}
+.code{
+  font-size: 16px;
+  // font-weight: 700;
 }
 
 .but{
