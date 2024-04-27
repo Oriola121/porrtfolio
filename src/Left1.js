@@ -1,14 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 import Bg from './image/mount.webp'
-import Gold1 from './image/ori1.jpg'
+import Gold1 from './image/ori1.png'
 
 function Left1() {
   return (
     <Left1cont>
       <Left1wrap>
         <L1>
-        <p className='tech'>Explore My Exciting<br/>Tech Wolrd!</p>
+        <p className='tech'>Explore My Exciting<br/>Tech World!</p>
         <p className='code'>I code</p>
         <p className='but'>Contact</p>
         </L1>
