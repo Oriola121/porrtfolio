@@ -7,7 +7,9 @@ function Left1() {
     <Left1cont>
       <Left1wrap>
         <L1>
-        <p className='tech'>Explore My Exciting<br/>Tech Wolrd!</p></L1>
+        <p className='tech'>Explore My Exciting<br/>Tech Wolrd!</p>
+        <button>Contact</button>
+        </L1>
         <L2>
           <img src='' alt='Ori Gold'/>
         </L2>
