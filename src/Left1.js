@@ -57,7 +57,8 @@ justify-content: space-around;
 }
 
 .but{
-  background: #1B1212;
+  // background: #1B1212;
+  background: #1B1218;
   width: 23%;
   height: 10%;
   border-radius: 4px;
