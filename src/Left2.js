@@ -15,7 +15,9 @@ function Left2() {
 export default Left2
 
 const Left2cont = styled.div`
-
+width: 100%;
+height: 100%;
+color: #fff;
 `
 const Left2wrap = styled.div`
 
