@@ -1,19 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
-import Bg from './image/mount.webp'
-import Gold1 from './image/ori1.png'
 
 function Left1() {
   return (
     <Left1cont>
       <Left1wrap>
         <L1>
-        <p className='tech'>Explore My Exciting<br/>Tech World!</p>
+        <p className='tech'>turning ideas into<br/>real life products<br/>is my calling</p>
         <p className='code'>I code</p>
         <p className='but'>Contact</p>
         </L1>
         <L2>
-          <img src= {Gold1} alt='Ori Gold' className='gold1'/>
         </L2>
       </Left1wrap>
     </Left1cont>
@@ -25,10 +22,6 @@ export default Left1
 const Left1cont = styled.div`
 width: 100%;
 height: 100%;
-background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${Bg});
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
 display: flex;
 justify-content: center;
 color: #fff;
@@ -57,12 +50,12 @@ justify-content: space-around;
 }
 
 .but{
-  // background: #1B1212;
-  background: #1B1218;
+  background: #fff;
+  // background: #1B1218;
   width: 23%;
   height: 10%;
   border-radius: 4px;
-  color: #fff;
+  color: #000;
   font-size: 13px;
   display: flex;
   justify-content: center;
@@ -72,7 +65,5 @@ const L2 = styled.div`
 width: 50%;
 height: 100%;
 
-.gold1{
-  height: 100%;
-}
+
 `

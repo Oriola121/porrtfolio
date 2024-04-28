@@ -24,8 +24,9 @@ align-items: center;
 .goldie {
   width: 120px;
   height: 120px;
-  border-radius: 50%;
+  border-radius: 30%;
   margin-top: -10px;
+  border: 2px solid #fff;
 }
 `
 const Ori = styled.div`

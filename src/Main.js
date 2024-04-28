@@ -6,10 +6,8 @@ import Left from './Left'
 function Main() {
   return (
     <Maincont>
-      <Mainwrap>
         <Ritey><Rite/></Ritey>
         <Lefty><Left/></Lefty>
-      </Mainwrap>
     </Maincont>
   )
 }
@@ -20,9 +18,9 @@ const Maincont = styled.div`
 width: 100%;
 height: 100vh;
 display: flex;
-justify-content: center;
-align-items: center;
-background-color: #191923;
+// justify-content: center;
+// align-items: center;
+// background-color: black;
 
 // @media screen and (max-width: 1075px){
 //   width: 100%;
@@ -30,11 +28,6 @@ background-color: #191923;
 //   display: flex;
 //   flex-direction: column;
 // }
-`
-const Mainwrap = styled.div`
-width: 96.5%;
-height: 93.5%;
-display: flex;
 `
 const Ritey = styled.div`
 background: #1B1212;
